@@ -32,7 +32,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  .theme-auto:root {
     --gradient1: #000;
     --gradient2: #007f0c;
     --gradient22: #004306;
