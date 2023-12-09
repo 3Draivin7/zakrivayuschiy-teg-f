@@ -16,6 +16,8 @@
   --button: #00cc14;
   --bold-font-weight: 700;
   --regular-font-weight: 400;
+  --main-font: "Inter";
+  --accent-font: "Press Start 2P";
 }
 
 .theme-light {
@@ -29,6 +31,8 @@
   --button: white;
   --bold-font-weight: 700;
   --regular-font-weight: 400;
+  --main-font: "Inter";
+  --accent-font: "Press Start 2P";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,5 +47,7 @@
     --button: #00cc14;
     --bold-font-weight: 700;
     --regular-font-weight: 400;
+    --main-font: "Inter";
+    --accent-font: "Press Start 2P";
   }
 }
