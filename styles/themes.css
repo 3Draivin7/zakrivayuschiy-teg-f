@@ -20,23 +20,8 @@
   --accent-font: "Press Start 2P";
 }
 
-.theme-light {
-  --gradient1: #d3d3d3;
-  --gradient2: #e7e7e7;
-  --gradient22: #1a1a1a;
-  --themes-background: #fff;
-  --themes-main-color: #000;
-  --conter: #000;
-  --core: white;
-  --button: white;
-  --bold-font-weight: 700;
-  --regular-font-weight: 400;
-  --main-font: "Inter";
-  --accent-font: "Press Start 2P";
-}
-
 @media (prefers-color-scheme: dark) {
-  .theme-auto:root {
+  :root {
     --gradient1: #000;
     --gradient2: #007f0c;
     --gradient22: #004306;
@@ -50,4 +35,19 @@
     --main-font: "Inter";
     --accent-font: "Press Start 2P";
   }
+}
+
+.theme-light {
+  --gradient1: #d3d3d3;
+  --gradient2: #e7e7e7;
+  --gradient22: #1a1a1a;
+  --themes-background: #fff;
+  --themes-main-color: #000;
+  --conter: #000;
+  --core: white;
+  --button: white;
+  --bold-font-weight: 700;
+  --regular-font-weight: 400;
+  --main-font: "Inter";
+  --accent-font: "Press Start 2P";
 }
